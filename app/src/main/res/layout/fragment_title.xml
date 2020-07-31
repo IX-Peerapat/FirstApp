@@ -8,7 +8,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/titleConstraint"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#E3D0D0">
 
         <TextView
             android:id="@+id/Head"
@@ -17,10 +18,10 @@
             android:layout_marginStart="137dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="138dp"
-            android:fontFamily="@font/butcherman"
+            android:fontFamily="@font/bangers"
             android:text="@string/head"
             android:textAlignment="center"
-            android:textColor="#EC5E5E"
+            android:textColor="#FF0000"
             android:textColorHighlight="#000000"
             android:textColorHint="#000000"
             android:textSize="30sp"
@@ -41,7 +42,33 @@
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Head"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.095" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="126dp"
+            android:fontFamily="@font/hammersmith_one"
+            android:text="@string/study"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="230dp"
+            android:layout_height="203dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="224dp"
+            android:src="@drawable/rockets"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Photo"
+            app:layout_constraintVertical_bias="0.508" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
