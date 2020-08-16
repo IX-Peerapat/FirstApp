@@ -9,4 +9,7 @@
         android:id="@+id/contactFragment"
         android:icon="@android:drawable/stat_notify_chat"
         android:title="@string/contact" />
+    <item
+        android:id="@+id/contactlistFragment"
+        android:title="@string/contactlist" />
 </menu>

@@ -19,4 +19,22 @@
         android:name="com.example.firstapp.AboutFragment"
         android:label="About"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/contactlistFragment"
+        android:name="com.example.firstapp.Fragment.list.ContactlistFragment"
+        android:label="ContactList"
+        tools:layout="@layout/fragment_contactlist" >
+        <action
+            android:id="@+id/action_contactlistFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.firstapp.Fragment.add.AddFragment"
+        android:label="Add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_contactlistFragment"
+            app:destination="@id/contactlistFragment" />
+    </fragment>
 </navigation>
