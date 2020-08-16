@@ -9,7 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.firstapp.R
 import kotlinx.android.synthetic.main.fragment_contactlist.view.*
 
-class  ContactlistFragment : Fragment() {
+class  ListFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
