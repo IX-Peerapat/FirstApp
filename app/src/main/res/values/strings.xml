@@ -7,4 +7,6 @@
     <string name="fb">Facebook : Peerapat\n\n\nInstagram : ik.pmz\n\n\nTel : 093-0858180</string>
     <string name="ab">Nmae : Peerapat Meekaew\n\n\nNickname : Ik\n\n\nAge : 20</string>
     <string name="study">Rajamangala University of Technology Isan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
